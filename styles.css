@@ -1,0 +1,35 @@
+html {
+    font-family: "roboto";
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+#Welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(34, 168, 230);
+}
+
+div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 300px;
+}
+
+#Header {
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+#Desc {
+    font-size: x-large;
+}
