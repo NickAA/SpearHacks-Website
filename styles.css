@@ -14,15 +14,25 @@ body {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: rgb(34, 168, 230);
+    background-color: rgb(32, 185, 255);
 }
 
 div > div {
+    transition: 1s;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
     height: 300px;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px white;
+}
+
+div > div:hover {
+    transition: 1s;
+    box-shadow: 0px 0px 10px 3px white;
 }
 
 #Header {
