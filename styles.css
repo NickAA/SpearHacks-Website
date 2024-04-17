@@ -30,6 +30,18 @@ div > div {
     box-shadow: 0px 0px 10px white;
 }
 
+@media (max-width: 800px) {
+    div > div {
+        width: 450px;
+    }
+}
+
+@media (max-width: 1200px) {
+    div > div {
+        width: 600px;
+    }
+}
+
 div > div:hover {
     transition: 1s;
     box-shadow: 0px 0px 10px 3px white;
@@ -38,6 +50,7 @@ div > div:hover {
 #Header {
     font-size: xx-large;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 #Desc {
