@@ -30,13 +30,13 @@ div > div {
     box-shadow: 0px 0px 10px white;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 800px) {
     div > div {
         width: 450px;
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 801px) and (max-width: 1200px) {
     div > div {
         width: 600px;
     }
